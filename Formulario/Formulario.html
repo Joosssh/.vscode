@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>FORMULARIOS</title>
+
+        <script type="text/javascript">
+            var v1 = prompt ("¿Como te llamas ?");
+            var v2 = parseInt(prompt ("Introduce un numero"));
+            var v3 = parseInt(prompt("Introduce otro numero"));
+            var v4 = v3+v2
+            if (v4>10)
+            alert("hola"+ v1 + "  " +v4) 
+        </script>
+    </head>
+    <body>
+        <form action="pagina.html"> 
+        <p>Nombre &nbsp;   <input type="text" name="Nombre" size="40" value="Josh" disabled /></p>
+        <p> Apellidos &nbsp; <input type="text" name="Apellidos"/></p>
+        <p> Contraseña &nbsp; <input type="password" name="Password"/></p>
+        <p><input type="submit" value="Enviar"/></p>
+        <P>¿Qué juego te gusta más?</P>
+        <p><input type="radio" name="juegos" value="Fornite"/> Fornite </p>
+        <p><input type="radio" name="juegos" value="GTA"/> GTA</p>
+        <p><input type="radio" name="juegos" value="Fifa"/> FIFA </p>
+        <p><input type="radio" name="juegos" value="Lol"/> LOL </p>
+        <P>¿Qué comida te gusta más?</P>
+        <p><input type="radio" name="comida" value="Huevos"/>Huevos </p>
+        <p><input type="radio" name="comida" value="Arroz con pollo"/> Arroz con pollo</p>
+        <p><input type="radio" name="comida" value="Macarrones"/> Macarrones </p>
+        
+        <p><input type="submit" value="Enviar"/></p>
+        <p><input type="reset" value="reset"/> </p>
+        <P><input type="button" value="Pulsa"/></P>
+        <p><textarea name="areatexto" rows="10" cols="50">Escribe algo aqui</textarea></p>
+
+
+        
+       
+        </form>
+    </body>

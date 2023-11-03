@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script type="text/javascript">
+
+        function consecionario() {
+
+        
+
+        alert("Vamos a calcular el precio del coche");
+        var precio=10000;
+        var llantas;
+        while (llantas !="s") {
+          var llantas =  prompt("Quieres llantas s/n")
+        }
+        
+    
+        var Gps =prompt("Quieres gps s/n");
+        if (Gps=="s")
+        precio+=800;
+        else {
+            alert("Puede añadirlo mas tarde")
+        };
+        var PaqueteDeportivo =prompt("Desea el paquete deportivo s/n");
+        if (PaqueteDeportivo=="s")
+        precio+=5000;
+        else {
+            alert("Puede añadirlo mas tarde")
+        };
+        for (var i =0;i<5;i++) {
+            alert ("El precio total es :"+precio);
+        }};
+    
+    
+    
+        
+        </script>
+    </head>
+    <body>
+        <form action="#">
+            <input type="button" value="EJECUTAR" onclick="consecionario()"/>
+        </form>
+    </body>
+
+</html>
+
