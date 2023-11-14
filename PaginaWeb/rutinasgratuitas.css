@@ -12,15 +12,21 @@ body {
 
 }
 
-.videos {
-    position: 50% 50%;
-    align-items: center; 
-    display: flex;
-    justify-content: center;
-}
-
-iframe {
+.iframe {
     width: 425px;
     height: 215px;
-    margin-left: 40px;
+    margin-left: 600px;
+
+}
+
+.text2 {
+    font-size: x-large;
+    position: relative;
+    margin-right: 500px;
+    color: aliceblue;
+    font-style:oblique
+
+}
+.video1{
+    margin-left:150px;
 }
