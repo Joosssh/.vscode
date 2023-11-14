@@ -1,0 +1,26 @@
+body {
+    background-image: url(fondorutinasgratuitas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+    font-style: oblique;
+
+}
+
+.videos {
+    position: 50% 50%;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 425px;
+    height: 215px;
+    margin-left: 40px;
+}
