@@ -1,21 +1,27 @@
-body{
+body {
     background-image: url(fondorutinaspremium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
-.text{
+
+.text {
     text-align: center;
-    color:aliceblue;
-    font-size: xx-large;
+    color:blanchedalmond;
+    font-size: x-large;
+}
+
+.table {
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+    top: 125px;
+    
+    
+   
     
     
 }
-.table{
-    border-collapse:collapse;
-width: 80%;
-position: relative;
-margin-left: 1000px;
-}
-td th {
-    
-}
+
+
+
