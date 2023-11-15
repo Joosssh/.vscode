@@ -22,11 +22,13 @@ body {
 .text2 {
     font-size: x-large;
     position: relative;
-    margin-right: 500px;
+    margin-left: 80px;
     color: aliceblue;
     font-style:oblique
 
 }
-.video1{
-    margin-left:150px;
+.videos{
+    margin-right:px;
+   
+    
 }

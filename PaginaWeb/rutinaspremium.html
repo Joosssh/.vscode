@@ -1,6 +1,41 @@
 <!DOCTYPE html>
+<html>
 <head>
+    <title>Rutinas Premium</title>
     <link rel="stylesheet" href="rutinaspremium.css">
-    <title>Rutinas PREMIUM</title>
+    <script type="text/javascript">
+        alert("Acabas de entrar a las rutinas de pago");
+        
+        var comprar = prompt("¿Seguro que quieres comprar las rutinas premium? si/no");
+        
+        if (comprar.toLowerCase() === "si") {
+            alert("¡Excelente elección!");
+        } else {
+            window.location.href = "http://127.0.0.1:3000/index.html";
+        }
+    </script>
 </head>
 <body>
+    <div class="text">
+        <h1>En las rutinas premium te asesoraremos personalmente con nuestros profesionales para que puedan organizarte una rutina adecuada a ti y de regalo un plan de alimentación</h1> 
+    </div>
+    <div class="table" style="position: fixed;">
+        <table border="1">
+            <tr>
+              <th>TIPO DE PLANES </th>
+            </tr>
+            <tr>
+                <td>Plan de 3 meses </td>
+              </tr>
+              <tr>
+                <td>Plan de 6 meses </td>
+              </tr>
+              <tr>
+                <td>Plan de 12 meses </td>
+              </tr>
+            
+        </table>
+    </div>
+    
+</body>
+</html>
