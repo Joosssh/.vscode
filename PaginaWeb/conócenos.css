@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: darkslategrey;
+
+}
+
+.lista{
+    margin-right: 1000px;
+    color:brown;
+    font-size: x-large;
+}
+body{
+    background-color:black
+}
+.audio{
+    position: relative;
+    right: 300px;
+
+}
+.text{
+    color:brown;
+text-align: right;
+position: relative;
+top: -570px;
+font-size: x-large;
+}
+.contacto{
+    position: relative;
+    right: 400px;
+}
